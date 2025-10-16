@@ -41,12 +41,18 @@ header{
     color: white;
 }
 
-/* parte do meio do site */
+/* parte do meio/banner do site */
+
+#faixaBranca{
+    width: 100%;
+    height: 12px;
+    background-color: #ffff;
+}
 
 #banner{
     display: flex;
     width: 100%;
-    height: 350px;
+    height: 600px;
     background-image: url(../AtividadeBanco/images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,23 +61,40 @@ header{
 }
 
 #bannerTexto{
-    width: 40%;
+    width: 50%;
     padding: 20px;
     background-color: #f2871ba6;
     color: black;
 }
+
+#inscricao{
+    padding: 20px 20px;
+    border: 3px solid #f38416;
+    border-radius: 4px;
+    background-color: #302727;
+    color: white;
+}
+
+#faixaBranca2{
+    width: 100%;
+    height: 50px;
+    background-color: #ffff;
+}
+
+/* Parte do pagamento */
 
 #pagamentoPr{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ba2d2d;
+    color: #000000;
 }
 
-#tiposPagamento{
-    width: 30%;
-    padding: 20px; 
-
+#pagamento1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ba2d2d;
 }
 
