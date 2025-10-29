@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* parte de cima do site */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ba2d2d;
+    align-items: center;
+}
+
+#menu{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#menu img{
+    width: 70px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#menu a{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#ladodireito a{
+    padding: 20px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* parte do meio/banner do site */
+
+#faixaBranca{
+    width: 100%;
+    height: 12px;
+    background-color: #ffff;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(../AtividadeBanco/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+}
+
+#bannerTexto{
+    width: 50%;
+    padding: 20px;
+    background-color: #f2871ba6;
+    color: black;
+}
+
+#inscricao{
+    padding: 20px 20px;
+    border: 3px solid #f38416;
+    border-radius: 4px;
+    background-color: #302727;
+    color: white;
+}
+
+#faixaBranca2{
+    width: 100%;
+    height: 50px;
+    background-color: #ffff;
+}
+
+/* Parte do pagamento */
+
+#pagamentoPr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+
+#pagamento1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #ba2d2d;
+}
+
