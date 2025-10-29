@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco</title>
-    <link rel="stylesheet" href="style/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtMuseum</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> 
-        <div id="menu">
-            <img src="/AtividadeBanco/images/logoWhite.svg" alt="logodobanco">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Ajuda</a>
-                <a href="#">Empréstimos</a>
-                <a href="#">Sua conta bancária</a>
-                
-            </nav>
-   
+  <header>
+    <nav>
+      <h1>ArtMuseum</h1>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <div class="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <h2>Destaque da semana</h2>
+      <div class="artista">
+        <h3>Elizabeth</h3>
+        <img src="img/artista.jpg" alt="Elizabeth">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atque aliquam sed, nihil minus, porro sapiente dolor rem nesciunt delectus cumque officia ullam maiores.</p>
+        <button>Ver sobre</button>
+      </div>
+    </section>
+
+    <section class="artes">
+      <h2>Artes</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/arte1.jpg" alt="">
+          <h4>Título da arte</h4>
+          <p>Descrição da arte</p>
+          <button>Ver sobre</button>
         </div>
-
-        <div id="ladodireito">
-            <a href="#">Abra sua conta</a>
+        <div class="card">
+          <img src="img/arte2.jpg" alt="">
+          <h4>Título da arte</h4>
+          <p>Descrição da arte</p>
+          <button>Ver sobre</button>
         </div>
+        <div class="card">
+          <img src="img/arte3.jpg" alt="">
+          <h4>Título da arte</h4>
+          <p>Descrição da arte</p>
+          <button>Ver sobre</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    </header>
-    <main>
-        <section id="banner">
-            <div id="bannerTexto">
-                <h1>Seja bem vindo ao banco 90!</h1>
-                <p>Aqui você encontra melhor serviço e atendimento do Brasil.</p>
-            </div>
+  <footer>
+    <p>ArtMuseum © 2023</p>
+  </footer>
 
-            <div id="inscricao">
-                
-            </div>
-        </section>
-        <section id="pagamentoPr">
-            <div id="tiposDePagamento">
-                <div class="pagamento"></div>
-                <div class="pagamento"></div>
-                <div class="pagamento"></div>
-            </div>
-        </section>
-            
-    </main>
-    <footer></footer>
+  <script src="script.js"></script>
 </body>
 </html>
